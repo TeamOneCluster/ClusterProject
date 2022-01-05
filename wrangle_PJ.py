@@ -1,5 +1,6 @@
 import env
 import acquire_PJ
+import numpy as np
 
 def prepare_zillow(df):
     ''' Prepare zillow data for exploration'''
