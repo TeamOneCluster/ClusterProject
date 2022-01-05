@@ -57,4 +57,6 @@ WHERE  prop.latitude IS NOT NULL
 """, 
         get_connection('zillow'))
         zillow.to_csv(index = False)
+        zillow.to_csv('zillow.csv')
+
     return zillow
